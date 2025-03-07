@@ -1,0 +1,16 @@
+# Weather Forecast Website 🌦️
+
+This is a simple and professional **Weather Forecast Website** built using **HTML, CSS, and JavaScript**.  
+It fetches real-time weather data from the WeatherAPI and allows users to check the weather of various cities worldwide.
+
+## 🌟 Features
+- 🌍 Search for weather updates in multiple cities  
+- 📊 Displays temperature, humidity, wind speed, and weather conditions  
+- 🎨 Fully responsive design  
+- 🚀 Built with HTML, CSS, and JavaScript  
+
+## 🔧 How to Run
+1. Clone the repository:  
+   ```sh
+   git clone https://github.com/alvintoor/weather-forecast.git
+2. if it did not get weather forecast data go to WeatherAPI and create an account and get APIKEY for that and it will response and work properly then.

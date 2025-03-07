@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecast</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="logo">WeatherPro</div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="weather.html">Weather</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="weather-container">
+        <h2>Check Weather</h2>
+        <select id="citySelect">
+            <option value="" disabled selected>Select a city</option>
+            <option value="New York">New York</option>
+            <option value="London">London</option>
+            <option value="Tokyo">Tokyo</option>
+            <option value="Dubai">Dubai</option>
+            <option value="Tokyo">Tokyo</option>
+<option value="Paris">Paris</option>
+<option value="Berlin">Berlin</option>
+<option value="Sydney">Sydney</option>
+<option value="Toronto">Toronto</option>
+<option value="Moscow">Moscow</option>
+<option value="Beijing">Beijing</option>
+<option value="Seoul">Seoul</option>
+<option value="Mexico City">Mexico City</option>
+<option value="Mumbai">Mumbai</option>
+<option value="São Paulo">São Paulo</option>
+<option value="Los Angeles">Los Angeles</option>
+<option value="Bangkok">Bangkok</option>
+<option value="Istanbul">Istanbul</option>
+<option value="Cairo">Cairo</option>
+<option value="Buenos Aires">Buenos Aires</option>
+<option value="Singapore">Singapore</option>
+<option value="Madrid">Madrid</option>
+<option value="Rome">Rome</option>
+<option value="Jakarta">Jakarta</option>
+
+            
+        </select>
+        <button onclick="getWeather()">Get Weather</button>
+        
+        <div id="weatherResult"></div>
+    </section>
+
+    <footer>
+        <p>© 2025 WeatherPro | All Rights Reserved</p>
+    </footer>
+
+    <script src="js/weather.js"></script>
+</body>
+</html>
